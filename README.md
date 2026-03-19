@@ -1,1 +1,2 @@
-# profile_pj
+# project_pr
+Welcome to my first project where i am showing skills learned from the odin project. The code might be messy but this is just my first project.
