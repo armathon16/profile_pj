@@ -10,6 +10,7 @@ body {
     background-image: url(/images/serene_dawn_gradient-full.jpg);
     background-size: cover;
     background-position: center;
+
 }
 
 h1,h2 {
@@ -47,8 +48,8 @@ nav {
     border-radius: 10px;
     display: flex;
     gap: 10px;
-    justify-content: flex-end;
-    align-content: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
     gap: 10px;
     flex-direction: column;
     margin: 10px;
@@ -93,6 +94,7 @@ section {
     color: rgb(240, 232, 227);
     width: 100%;
     box-sizing: border-box;
+    animation-play-state: running;
 }
 .background {
     background-color: #333;
@@ -118,7 +120,7 @@ footer {
     background-image: url(/images/serene_dawn_gradient-full.jpg);
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(41, 20, 20);
     padding: 10px;
     text-align: center;
     margin-top: 20px;
@@ -151,7 +153,7 @@ footer {
 }
 
 .social-media a {
-    color: white;
+    color: rgb(31, 23, 23);
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
